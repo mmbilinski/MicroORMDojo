@@ -6,7 +6,10 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 using Dapper;
+using Dapper.Contrib.Extensions;
+using MicroORMDojo.Dapper.Models;
 
 namespace MicroORMDojo.Dapper
 {
@@ -23,10 +26,15 @@ namespace MicroORMDojo.Dapper
 
             using (var conn = GetSqlConnection())
             {
-                // here comes the...
+                playground.DoFunnyThings(conn);
             }
 
             Console.ReadKey();
+        }
+
+        public void DoFunnyThings(IDbConnection conn)
+        {
+            // here comes the...
         }
     }
 }
