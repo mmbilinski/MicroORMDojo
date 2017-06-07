@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		instnwnd.sql = instnwnd.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroORMDojo.SimpleData", "MicroORMDojo.SimpleData\MicroORMDojo.SimpleData.csproj", "{EBAC1AA6-4656-4C27-9C22-256E3396F17D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{A9DEB3D7-B8F4-422D-9F1A-78A53FE137F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9DEB3D7-B8F4-422D-9F1A-78A53FE137F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9DEB3D7-B8F4-422D-9F1A-78A53FE137F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAC1AA6-4656-4C27-9C22-256E3396F17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAC1AA6-4656-4C27-9C22-256E3396F17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAC1AA6-4656-4C27-9C22-256E3396F17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAC1AA6-4656-4C27-9C22-256E3396F17D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
