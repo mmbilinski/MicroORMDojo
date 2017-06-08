@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="SimpleDataPlayground.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
